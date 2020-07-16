@@ -1,0 +1,95 @@
+/* Main navigation bar */
+.main-nav {
+    display: flex;
+    margin: 0;
+    list-style: none;
+    background-color: darkolivegreen;
+}
+
+.main-nav a {
+    text-decoration: none;
+}
+
+
+li {
+    padding: 30px 30px;
+    font-size: 20px;
+}
+
+.main-nav li:hover {
+    background-color: lightgreen;
+}
+
+.src-container {
+    margin-top: 10px;
+    margin-left: auto;
+    display: block;
+}
+
+.src-bar {
+    margin-top: 18px;
+    margin-bottom: 18px;
+}
+
+.src-button {
+    margin-top: 18px;
+    margin-bottom: 18px;
+    margin-right: 80px;
+    margin-left: -5px;
+}
+
+.cover-container {
+    display: flex;
+    background-size: conta
+    align-items: center;
+    justify-content: center;
+}
+
+.center {
+    color: white;
+    filter: drop-shadow(0 0 0.75rem green);
+    font-size: 125px;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.cover {
+    height: 45vh;
+    width: 100%;
+    background-size: contain;
+}
+
+.grid-wrapper {
+    display: grid;
+    gap: 0px;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    background-color: brown;
+
+}
+
+.pimg {
+    padding: 10px 10px;
+    width: 300x;
+    height: 275px;
+    /* object-fit: cover; */
+    overflow: hidden;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 75% 50%;
+    -webkit-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+    -moz-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+    -o-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+    box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+}
+
+.pimg > img:hover {
+    transform: scale(1.05);
+    -webkit-transition: all 500ms ease-in-out;
+    -moz-transition: all 500ms ease-in-out;
+    -ms-transition: all 500ms ease-in-out;
+    -o-transition: all 500ms ease-in-out;
+    transition: all 500ms ease-in-out;
+}
+
